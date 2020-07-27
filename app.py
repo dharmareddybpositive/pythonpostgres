@@ -16,7 +16,7 @@ def greet():
 
 @app.route('/api/v1/timesheet/employee/all',methods=["GET"])
 def hello():
-     employees = []
+     employees = [] 
      host = "postgresqldemo.postgres.database.azure.com"
      user = "csvadmin@postgresqldemo"
      dbname = "postgres"
